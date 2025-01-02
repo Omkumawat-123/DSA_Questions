@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.*;
 
-public class Swap{
+public class Swap {
     public static void main(String arg[]){
    int A,B,C;
     Scanner sc=new Scanner(System.in);
@@ -19,7 +19,7 @@ public class Swap{
 //    B=C;
 //    C=temp;
 
-                       // Using Addtions + multiplications 
+                        // Using Addtions + multiplications 
 A=A+B+C;
 B=A-(B+C);
 C=A-(B+C);
