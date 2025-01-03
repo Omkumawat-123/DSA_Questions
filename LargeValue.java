@@ -6,17 +6,17 @@ public class LargeValue {
         System.out.println("Enter the size In Array :");
         int size = sc.nextInt();
 
-        int[] array = new int[size];
+        int[] array = new int[size];   // array declared 
 
         for (int i = 0; i < size; i++) {
             array[i] = sc.nextInt();
             // input array
         }
-        int max = array[0];                 // intially declared max=0
+        int max = array[0];            // intially declared max=0
 
         for( int num:array) {
            if ( num > max){
-            max = num;
+            max = num ;
            }
 
         }
