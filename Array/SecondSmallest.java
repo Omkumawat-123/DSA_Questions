@@ -2,12 +2,13 @@ public class SecondSmallest {
     public static void main (String arg[]){
 
         int [] array ={1,2,3,4,5,6};   // declaration of array 
-        int smallest = Integer.MAX_VALUE;
+
+        int smallest = Integer.MAX_VALUE;                     // declaration of two var 
         int SecondSmallest = Integer.MAX_VALUE;
 
         for (int num : array) {
                if (num < smallest) {
-                smallest=num;     
+                smallest =num;     
                }
                else if ( num > smallest && num < SecondSmallest )
                {
