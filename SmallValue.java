@@ -19,7 +19,7 @@ public class SmallValue {
         }
 
     }
-    System.out.println("the min value is :"+min);
+    System.out.println("the min value is :" + min);
     }
     
 }
