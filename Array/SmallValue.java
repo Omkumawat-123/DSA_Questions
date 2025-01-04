@@ -13,7 +13,8 @@ public class SmallValue {
 
     int min = array[0];
 
-    for(int num:array){
+    for(int num:array)
+    {
         if (num < min ) {
             min=num;
         }

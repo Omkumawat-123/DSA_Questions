@@ -8,7 +8,7 @@ public class SecondSmallest {
 
         for (int num : array) {
                if (num < smallest) {
-                smallest =num;     
+                smallest = num;     
                }
                else if ( num > smallest && num < SecondSmallest )
                {
