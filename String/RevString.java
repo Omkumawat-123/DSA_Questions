@@ -7,7 +7,7 @@ public class RevString {
         String RevString=" ";
         for(int i=0;i<str.length();i++){
             ch=str.charAt(i);
-            RevString=ch+RevString;
+            RevString=ch+RevString;          // prpend 
             
         }
         System.out.println("Reversre String is:"+ RevString);
