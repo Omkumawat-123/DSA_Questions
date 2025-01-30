@@ -10,13 +10,16 @@ public class Palindrome {
         for(int i=0;i<ab.length();i++)
         {
             char ch=ab.charAt(i);
-            ReversreStr=ch+ReversreStr;
-            
-            
+            ReversreStr=ch+ReversreStr;   
         }
         
-        boolean isPalindrome = ab.equals(ReversreStr);
-        System.out.println("Is palindrome: " + isPalindrome);
+        if(ab.equals(ReversreStr)){
+            System.out.println("pallindrome");
+        }
+        else {
+            System.out.println("not");
+        }
+
         
 
     }
