@@ -7,11 +7,12 @@ public class CountFreqChar {
 
         Map<Character, Integer> obj = new HashMap<>() ;
             
-        for (char ch:str.toCharArray()) {
-          if(obj.containsKey(ch)){
-            obj.put(ch, obj.get(ch)+1);}
+        for (char ch:str.toCharArray()) {   // seprate the char 
+          if(obj.containsKey(ch)){        
+            obj.put(ch, obj.get(ch)+1);}    // if ch is contain the char then increase the conut
             else{
-                obj.put(ch, 1);
+
+                obj.put(ch, 1);   // otherwise get the char and count it 1 
 
             }
           }
